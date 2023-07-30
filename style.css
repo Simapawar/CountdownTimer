@@ -5,35 +5,39 @@
 }
 
 body {
-    background-image: url('./white_bg.jpg');
+    background-image: url('./Screenshot\ 2023-07-30\ 114153.png');
     background-size: cover;
     background-position:center center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: right;
+    align-items: right;
     min-height: 100vh;
-    font-family: 'Potta One', cursive;
-    margin: 0;
+    font-family: 'Arial', cursive;
+    margin:0;
 }
 
 h1 {
+    align-items: right;
+    font-weight: bold;
     font-weight: normal;
     font-size: 4rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .countdown-container {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
 }
 
 .big-text {
+    align-items: right;
     font-weight: bold;
     font-size: 6rem;
     line-height: 1;
-    margin: 1rem 2rem;
+    margin: 2rem 2rem;
 }
 
 .countdown-el {
@@ -41,5 +45,5 @@ h1 {
 }
 
 .countdown-el span {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
